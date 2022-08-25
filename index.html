@@ -1,0 +1,47 @@
+
+<html>
+    <head>
+      <title>Image recognition</title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  
+      <link rel="stylesheet" type="text/css" href="style.css">
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    
+    </head>
+
+    <body>
+<center>
+    <h3 class="btn-btn default heading">Mask Identification Web App </h3>
+    <hr>
+
+      <center>
+        <div col-lg-6 col-md-6 co-sm-6 col-xs-12 heading_div>
+            Model is trained on mask Identification
+            <br>
+            <div class="btn btn-warning heading_div2">
+                PROPER MASK | IMPROPER MASK | NO MASK
+            </div>
+        </div>
+      </center>
+<p class="btn btn-info result_para_tag">Object:
+    <span id="result_object_name"></span>
+</p>
+<br><br>
+<p class="btn btn-info result_para_tag">Accuracy:
+  <span id="result_accuracy_name"></span>
+</p>
+<div id="camera"></div>
+<br><div class="col-md-4 col-sm-12 col-xs-12">
+<br>
+</div>
+      
+</center>
+<div class="copy_right_footer">
+    Developed by - Diya
+  </div>
+<script src="main.js"></script>
+    </body>
